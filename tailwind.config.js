@@ -6,6 +6,9 @@ module.exports = {
       backgroundImage: {
         main: "url('images/main.jpg')",
       },
+      gridTemplateRows: {
+        8: "repeat(8, minmax(0, 1fr))",
+      },
     },
     plugins: [],
   },
