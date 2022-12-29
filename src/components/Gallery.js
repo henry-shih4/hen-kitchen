@@ -12,7 +12,7 @@ export default function Gallery() {
     <>
       <div className="flex flex-col justify-center items-center h-max bg-black">
         <div className="text-white mb-2">Our Gallery</div>
-        <div className="grid h-screen w-[80%] m-auto bg-black grid-cols-custom grid-rows-custom gap-2 mb-2 grid-flow-dense lg:h-full">
+        <div className="grid h-screen w-[90%] m-auto bg-black grid-cols-custom grid-rows-custom gap-2 mb-2 grid-flow-dense lg:h-full">
           <div className="col-span-2 row-span-1 overflow-hidden">
             <img
               className="h-full w-full object-cover duration-500 ease-in-out hover:scale-105 "

@@ -56,7 +56,7 @@ export default function Features() {
               <img alt="menu" src="/cutlery.svg" />
             </div>
           </button>
-          <div className='m-3 text-sm'>Menu</div>
+          <div className="m-3 text-sm">Menu</div>
         </div>
       </div>
     </div>

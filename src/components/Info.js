@@ -10,7 +10,7 @@ export default function Info() {
             We aim to serve
             <span className="font-bold text-3xl m-1 text-yellow-300">you</span>!
           </div>
-          <div className="text-lg w-3/4">
+          <div className="text-sm w-3/4 lg:text-lg">
             Our mission is to provide a setting where customers can enjoy the
             best food, service, and ambiance for any occassion. Customer
             satisfaction is our first priority and we work hard to achieve that.

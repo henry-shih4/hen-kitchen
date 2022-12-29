@@ -5,3 +5,7 @@
 body {
   background-color: black;
 }
+
+.yt-icon:hover {
+  fill: red;
+}

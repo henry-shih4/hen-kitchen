@@ -5,7 +5,7 @@ import Features from "./components/Features";
 import Reviews from "./components/Reviews";
 import Gallery from "./components/Gallery";
 import Map from "./components/Map";
-import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
       <Reviews />
       <Gallery />
       <Map />
-      <Contact />
+      <Footer />
     </div>
   );
 }
