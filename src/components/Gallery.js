@@ -10,7 +10,7 @@ import lounge from "../images/lounge.jpg";
 export default function Gallery() {
   return (
     <>
-      <div className="flex flex-col justify-center items-center h-max bg-black">
+      <div className="flex flex-col justify-center items-center h-max bg-black overflow-hidden">
         <div className="text-white mb-2">Our Gallery</div>
         <div className="grid h-screen w-[90%] m-auto bg-black grid-cols-custom grid-rows-custom gap-2 mb-2 grid-flow-dense lg:h-full">
           <div className="col-span-2 row-span-1 overflow-hidden">
@@ -71,7 +71,7 @@ export default function Gallery() {
           </div>
           <div className="col-span-1 row-span-1 overflow-hidden">
             <img
-              className="h-full w-full object-cover"
+              className="h-full w-full object-cover duration-500 ease-in-out hover:scale-105 "
               alt="lounge"
               src={lounge}
               loading="lazy"
