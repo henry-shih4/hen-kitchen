@@ -6,7 +6,11 @@ export default function Features() {
         <div className="flex flex-col gap-y-3 md:flex-row">
           <div className="w-full h-1/3 flex flex-row justify-center items-center space-y-3 md:w-1/3 md:flex-col md:h-full">
             <div className="m-2 flex flex-col justify-center items-center w-1/3 md:h-1/3">
-              <img alt="tomato" src="/tomato.svg" />
+              <img
+                alt="tomato"
+                src="/tomato.svg"
+                className="hover:-translate-y-2 duration-300 mb-1"
+              />
               <div>Always Fresh</div>
             </div>
             <div className="text-sm w-4/5 md:h-2/3 md:md:text-base">
@@ -18,7 +22,10 @@ export default function Features() {
 
           <div className="w-full h-1/3 flex flex-row justify-center items-center space-y-3 md:w-1/3 md:flex-col md:h-full">
             <div className="m-2 flex flex-col justify-center items-center w-1/3 md:h-1/3">
-              <img className="w-[60px] " src="/plant.svg" />
+              <img
+                src="/plant.svg"
+                className="hover:-translate-y-2 duration-300 mb-1"
+              />
               <div>Premium Ingredients</div>
             </div>
             <div className="text-sm w-4/5 md:h-2/3 md:md:text-base">
@@ -30,7 +37,10 @@ export default function Features() {
 
           <div className="w-full h-1/3 flex flex-row justify-center items-center space-y-3 md:w-1/3 md:flex-col md:h-full">
             <div className=" m-2 flex flex-col justify-center items-center w-1/3 md:h-1/3">
-              <img src="/trophy.svg" />
+              <img
+                src="/trophy.svg"
+                className="hover:-translate-y-2 duration-300 mb-1"
+              />
               <div>Exquisite Taste</div>
             </div>
             <div className="text-sm w-4/5 md:h-2/3 md:text-base ">
@@ -41,7 +51,12 @@ export default function Features() {
           </div>
         </div>
         <div>
-          <button>See Menu</button>
+          <button className="flex justify-center items-center mt-8 bg-yellow-300 text-black text-center p-2 w-[100px] h-[100px] rounded-full transition-transform ease-in-out hover:scale-110">
+            <div>
+              <img alt="menu" src="/cutlery.svg" />
+            </div>
+          </button>
+          <div className='m-3 text-sm'>Menu</div>
         </div>
       </div>
     </div>
