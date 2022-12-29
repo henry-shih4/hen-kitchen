@@ -1,5 +1,5 @@
 import logo from "../images/logo.png";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 export default function Header() {
   const [showModal, setShowModal] = useState();
@@ -28,8 +28,8 @@ export default function Header() {
         <div
           className={
             showModal
-              ? "fixed top-0 w-full h-full bg-black flex justify-center items-center animate-slideIn"
-              : "hidden"
+              ? "fixed top-0 w-full h-full bg-black flex justify-center items-center translate-x-0 transiton duration-500"
+              : "invisible translate-x-[-100%] fixed top-0 w-full h-full bg-black flex justify-center items-center transiton duration-500"
           }
         >
           <div
