@@ -15,7 +15,7 @@ export default function Header() {
             onClick={() => {
               setShowModal(true);
             }}
-            className="h-16 m-4"
+            className="cursor-pointer h-16 m-4"
           >
             <img
               className="fill-white"
@@ -29,7 +29,7 @@ export default function Header() {
           className={
             showModal
               ? "fixed top-0 w-full h-full bg-black flex justify-center items-center animate-slideIn"
-              : "invisible"
+              : "hidden"
           }
         >
           <div
