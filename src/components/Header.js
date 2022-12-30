@@ -28,8 +28,8 @@ export default function Header() {
         <div
           className={
             showModal
-              ? "fixed top-0 w-full h-full bg-black flex justify-center items-center translate-x-0 transiton duration-500"
-              : "invisible translate-x-[-100%] fixed top-0 w-full h-full bg-black flex justify-center items-center transiton duration-500"
+              ? "fixed top-0 w-full h-full bg-black flex justify-center items-center translate-x-0 transiton duration-700"
+              : "invisible translate-x-[-100%] fixed top-0 w-full h-full bg-black flex justify-center items-center transiton duration-700"
           }
         >
           <div

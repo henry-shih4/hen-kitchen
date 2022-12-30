@@ -1,7 +1,14 @@
+import intersectHelper from "../util/Helper";
+import { useEffect } from "react";
+
 export default function Reviews() {
+  useEffect(() => {
+    intersectHelper();
+  }, []);
+
   return (
     <div className=" flex justify-center items-center h-screen bg-black text-white">
-      <div className="flex flex-col justify-around items-center text-center w-5/6 h-5/6">
+      <div className="show-on-scroll flex flex-col justify-around items-center text-center w-5/6 h-5/6">
         <div className="text-2xl flex space-x-2 justify-center items-center ">
           <div>Kind words from our customers!</div>
           <div>

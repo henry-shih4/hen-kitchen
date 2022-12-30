@@ -13,28 +13,30 @@ module.exports = {
         custom: "repeat(4, minmax(0, 1fr))",
       },
       keyframes: {
-        slideIn: {
+        fadeIn: {
           "0%": {
-            transform: "translateX(-100%)",
+            opacity: "0",
+            transform: "translateY(5%)",
           },
 
           "100%": {
-            transform: "translateX(0)",
+            opacity: "1",
+            transform: "translateY(0)",
           },
         },
-        slideOut: {
+        slideUp: {
           "0%": {
-            transform: "translateX(0)",
+            transform: "translateY(5%)",
           },
 
           "100%": {
-            transform: "translateX(-100%)",
+            transform: "translateY(0)",
           },
         },
       },
       animation: {
-        slideIn: "slideIn 0.7s linear",
-        slideOut: "slideOut 0.7s linear"
+        fadeIn: "fadeIn 1s ease-in forwards",
+        slideUp: "slideUp 0.7s ease-in forwards",
       },
     },
     plugins: [],

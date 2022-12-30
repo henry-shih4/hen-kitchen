@@ -1,7 +1,15 @@
+import intersectHelper from "../util/Helper";
+import { useEffect } from "react";
+
 export default function Features() {
+
+  useEffect(() => {
+    intersectHelper();
+  }, []);
+
   return (
     <div className="flex justify-center items-center h-screen bg-black text-white">
-      <div className="flex flex-col justify-around items-center text-center w-5/6 h-5/6">
+      <div className="show-on-scroll flex flex-col justify-around items-center text-center w-5/6 h-5/6">
         <div className="text-2xl">What our menu offers</div>
         <div className="flex flex-col gap-y-3 md:flex-row">
           <div className="w-full h-1/3 flex flex-row justify-center items-center space-y-3 md:w-1/3 md:flex-col md:h-full">
