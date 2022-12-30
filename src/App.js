@@ -1,11 +1,8 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
-import Main from "./components/Main";
-import Info from "./components/Info";
-import Features from "./components/Features";
-import Reviews from "./components/Reviews";
-import Gallery from "./components/Gallery";
-import Map from "./components/Map";
-import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import Menu from "./pages/Menu";
+
 import "./App.css";
 
 function App() {
@@ -14,14 +11,13 @@ function App() {
   };
   return (
     <div className="App">
-      <Header />
-      <Main />
-      <Info />
-      <Features />
-      <Reviews />
-      <Gallery />
-      <Map />
-      <Footer />
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="menu" element={<Menu />}></Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

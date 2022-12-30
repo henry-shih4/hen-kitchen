@@ -8,7 +8,7 @@ export default function Reviews() {
 
   return (
     <div className=" flex justify-center items-center h-screen bg-black text-white">
-      <div className="show-on-scroll flex flex-col justify-around items-center text-center w-5/6 h-5/6">
+      <div className="show-on-scroll flex flex-col justify-around items-center text-center w-5/6 h-full">
         <div className="text-2xl flex space-x-2 justify-center items-center ">
           <div>Kind words from our customers!</div>
           <div>
@@ -30,7 +30,7 @@ export default function Reviews() {
 
           <div className="bg-review bg-cover w-full h-1/3 flex flex-row  justify-around items-center space-y-2  border-white border-2 rounded-md md:w-1/3 m-3 md:h-3/4 md:flex-col md:justify-center">
             <div>
-              <img src="/quotes.svg" />
+              <img alt="quotes" src="/quotes.svg" />
             </div>
             <div className="w-2/3 text-sm italic md:text-md lg:text-lg">
               The food was absolutely wonderful, from preparation to
@@ -41,7 +41,7 @@ export default function Reviews() {
           </div>
           <div className="bg-review bg-cover w-full h-1/3 flex flex-row justify-around items-center space-y-2  border-white border-2 rounded-md md:w-1/3 m-3 md:h-3/4 md:flex-col md:justify-center">
             <div>
-              <img src="/quotes.svg" />
+              <img alt="quotes" src="/quotes.svg" />
             </div>
             <div className="w-2/3 text-sm italic md:text-md lg:text-lg">
               Excellent eating experience.. from walking in the door and being

@@ -9,9 +9,9 @@ export default function Features() {
 
   return (
     <div className="flex justify-center items-center h-screen bg-black text-white">
-      <div className="show-on-scroll flex flex-col justify-around items-center text-center w-5/6 h-5/6">
-        <div className="text-2xl">What our menu offers</div>
-        <div className="flex flex-col gap-y-3 md:flex-row">
+      <div className="show-on-scroll flex flex-col justify-around items-center text-center w-5/6 h-full">
+        <div className="text-2xl">What our menu provides</div>
+        <div className="flex flex-col gap-y-5 md:flex-row">
           <div className="w-full h-1/3 flex flex-row justify-center items-center space-y-3 md:w-1/3 md:flex-col md:h-full">
             <div className="m-2 flex flex-col justify-center items-center w-1/3 md:h-1/3">
               <img
@@ -31,6 +31,7 @@ export default function Features() {
           <div className="w-full h-1/3 flex flex-row justify-center items-center space-y-3 md:w-1/3 md:flex-col md:h-full">
             <div className="m-2 flex flex-col justify-center items-center w-1/3 md:h-1/3">
               <img
+                alt="plant"
                 src="/plant.svg"
                 className="hover:-translate-y-2 duration-300 mb-1"
               />
@@ -46,6 +47,7 @@ export default function Features() {
           <div className="w-full h-1/3 flex flex-row justify-center items-center space-y-3 md:w-1/3 md:flex-col md:h-full">
             <div className=" m-2 flex flex-col justify-center items-center w-1/3 md:h-1/3">
               <img
+                alt="trophy"
                 src="/trophy.svg"
                 className="hover:-translate-y-2 duration-300 mb-1"
               />
@@ -59,7 +61,7 @@ export default function Features() {
           </div>
         </div>
         <div>
-          <button className="flex justify-center items-center mt-8 bg-yellow-300 text-black text-center p-2 w-[100px] h-[100px] rounded-full transition-transform ease-in-out hover:scale-110">
+          <button className="flex justify-center items-center mt-8 bg-yellow-300 text-black text-center p-2 w-[80px] h-[80px] rounded-full transition-transform ease-in-out hover:scale-110 md:w-[100px] md:h-[100px]">
             <div>
               <img alt="menu" src="/cutlery.svg" />
             </div>
