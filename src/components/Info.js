@@ -27,7 +27,7 @@ export default function Info() {
             </button>
           </div>
         </div>
-        <div className="show-on-scroll min-w-1/2 h-[400px] flex justify-center items-center md:h-full">
+        <div className="show-on-scroll min-w-1/2 h-[400px] flex justify-center items-center md:h-3/4">
           <img className="object-cover h-full" src={burger} />
         </div>
       </div>

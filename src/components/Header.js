@@ -1,9 +1,10 @@
 import logo from "../images/logo.png";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function Header() {
   const [showModal, setShowModal] = useState();
-
+  const navigate = useNavigate();
   return (
     <>
       <div className={"fixed top-0 w-full h-24 z-40"}>
@@ -59,10 +60,22 @@ export default function Header() {
             </svg>
           </div>
           <div className="flex flex-col justify-center items-center gap-y-10 text-white text-center text-3xl">
-            <div className="w-max p-3 rounded-lg hover:text-black hover:bg-white duration-300 cursor-pointer">
+            <div
+              className="w-max p-3 rounded-lg hover:text-black hover:bg-white duration-300 cursor-pointer"
+              onClick={() => {
+                navigate("/");
+                setShowModal(false);
+              }}
+            >
               HOME
             </div>
-            <div className="w-max p-3 rounded-lg hover:text-black hover:bg-white duration-300 cursor-pointer">
+            <div
+              className="w-max p-3 rounded-lg hover:text-black hover:bg-white duration-300 cursor-pointer"
+              onClick={() => {
+                navigate("/menu");
+                setShowModal(false);
+              }}
+            >
               MENU
             </div>
             <div className="w-max p-3 rounded-lg hover:text-black hover:bg-white duration-300 cursor-pointer">
