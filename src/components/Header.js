@@ -8,15 +8,24 @@ export default function Header() {
   return (
     <>
       <div className={"fixed top-0 w-full h-24 z-40"}>
-        <div className="flex justify-between text-white bg-black h-full ">
-          <div className="h-16 m-4">
+        <div className="flex justify-between text-white bg-transparant h-full ">
+          <div
+            className="h-16 m-4 hover:cursor-pointer hover:scale-110 duration-500"
+            onClick={() => {
+              navigate("/");
+            }}
+          >
             <img alt="hen-kitchen-logo" className="h-full" src={logo} />
           </div>
           <div
             onClick={() => {
               setShowModal(true);
             }}
-            className="cursor-pointer h-16 m-4"
+            className={
+              showModal
+                ? "rotate-90 cursor-pointer h-16 m-4 transition duration-500"
+                : "rotate-0 cursor-pointer h-16 m-4 transition duration-500"
+            }
           >
             <img
               className="fill-white"

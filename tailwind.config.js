@@ -8,6 +8,7 @@ module.exports = {
         review:
           "linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url('images/glasses.jpg')",
         city: "linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url('images/city-map.jpg')",
+        chef: "linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url('images/chef3.jpg')",
       },
       gridTemplateColumns: {
         custom: "repeat(4, minmax(0, 1fr))",

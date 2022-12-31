@@ -1,6 +1,6 @@
 import burger from "../images/burger.jpg";
 import { useEffect } from "react";
-  import intersectHelper from "../util/Helper";
+import intersectHelper from "../util/Helper";
 
 export default function Info() {
   useEffect(() => {
@@ -8,13 +8,13 @@ export default function Info() {
   }, []);
 
   return (
-    <div className="flex justify-center items-center h-max mb-2 bg-black md:h-screen">
+    <div className="flex justify-center items-center h-max mb-2 bg-black md:h-90v">
       <div className=" flex flex-col justify-center items-center w-5/6 h-max md:flex-row md:h-full">
         <div className="show-on-scroll  flex flex-col justify-center items-center space-y-4 w-2/3 h-full mb-3 text-white md:items-start">
           <div className="text-3xl">So...why us?</div>
           <div className="text-xl">
             We aim to serve
-            <span className="font-bold text-3xl m-1 text-yellow-300">you</span>!
+            <span className="font-bold text-3xl m-2 text-yellow-300">you</span>!
           </div>
           <div className="text-base w-3/4 lg:text-lg">
             Our mission is to provide a setting where customers can enjoy the

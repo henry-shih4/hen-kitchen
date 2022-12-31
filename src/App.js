@@ -4,8 +4,8 @@ import Map from "./components/Map";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Menu from "./pages/Menu";
-
 import "./App.css";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   window.onbeforeunload = function () {
@@ -15,13 +15,10 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <ScrollToTop />
         <Header />
         <Routes>
-          <Route
-            onUpdate={() => window.scrollTo(0, 0)}
-            path="/"
-            element={<Home />}
-          ></Route>
+          <Route path="/" element={<Home />}></Route>
           <Route path="menu" element={<Menu />}></Route>
         </Routes>
         <Map />

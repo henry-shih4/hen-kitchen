@@ -9,13 +9,13 @@ export default function Reviews() {
   return (
     <div className=" flex justify-center items-center h-screen bg-black text-white">
       <div className="show-on-scroll flex flex-col justify-around items-center text-center w-5/6 h-full">
-        <div className="text-2xl flex space-x-2 justify-center items-center ">
+        <div className="text-2xl h-1/5 flex space-x-2 justify-center items-center ">
           <div>Kind words from our customers!</div>
           <div>
             <img alt="smiley-face" src="/smiley.svg" />
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center mt-10 h-full md:flex-row md:mt-3">
+        <div className="flex flex-col justify-center items-center h-4/5 md:flex-row ">
           <div className="bg-review bg-cover w-full h-1/3 flex flex-row justify-around items-center space-y-2 border-white border-2 rounded-md md:w-1/3 m-3 md:h-3/4 md:flex-col md:justify-center">
             <div>
               <img alt="quotes" src="/quotes.svg" />
