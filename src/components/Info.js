@@ -8,7 +8,7 @@ export default function Info() {
   }, []);
 
   return (
-    <div className="flex justify-center items-center h-max mb-2 bg-black md:h-90v">
+    <div className="flex justify-center items-center h-max mb-2 bg-black md:h-80v">
       <div className=" flex flex-col justify-center items-center w-5/6 h-max md:flex-row md:h-full">
         <div className="show-on-scroll  flex flex-col justify-center items-center space-y-4 w-2/3 h-full mb-3 text-white md:items-start">
           <div className="text-3xl">So...why us?</div>

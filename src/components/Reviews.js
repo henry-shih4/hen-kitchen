@@ -8,7 +8,7 @@ export default function Reviews() {
 
   return (
     <div className=" flex justify-center items-center h-screen bg-black text-white">
-      <div className="show-on-scroll flex flex-col justify-around items-center text-center w-5/6 h-full">
+      <div className="show-on-scroll flex flex-col justify-around items-center text-center w-[80%] h-full">
         <div className="text-2xl h-1/5 flex space-x-2 justify-center items-center ">
           <div>Kind words from our customers!</div>
           <div>
