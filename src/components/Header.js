@@ -7,7 +7,7 @@ export default function Header() {
   const navigate = useNavigate();
   return (
     <>
-      <div className={"fixed top-0 w-full h-24 z-40"}>
+      <div className={"fixed top-0 w-full h-24 z-50"}>
         <div className="flex justify-between text-white bg-transparant h-full ">
           <div
             className="h-16 m-4 hover:cursor-pointer hover:scale-110 duration-500"
