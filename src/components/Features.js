@@ -65,14 +65,14 @@ export default function Features() {
             </div>
           </div>
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center hover:scale-105 duration-300">
           <button
-            className=" show-on-scroll flex justify-center items-center bg-yellow-300 text-black text-center p-2 w-[80px] h-[80px] rounded-full transition-transform ease-in-out hover:scale-110 hover:cursor-pointer md:w-[100px] md:h-[100px]"
+            className="show-on-scroll flex justify-center items-center bg-yellow-300 text-black text-center p-2 w-[80px] h-[80px] rounded-full transition-transform ease-in-out hover:cursor-pointer md:w-[100px] md:h-[100px]"
             onClick={() => {
               navigate("/menu");
             }}
           >
-            <div>
+            <div className="">
               <img alt="menu" src="/cutlery.svg" />
             </div>
           </button>
