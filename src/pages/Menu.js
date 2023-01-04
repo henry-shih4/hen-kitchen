@@ -50,13 +50,13 @@ export default function Menu() {
       <div className="flex flex-col justify-center items-center w-screen h-max mb-10 bg-white">
         <div className="grid grid-cols-1 m-auto bg-black w-full text-white md:grid-cols-2 gap-x-2 gap-y-10">
           <div className="z-40 m-auto h-max w-5/6 bg-black flex flex-col border-solid border-slate-500 border-2 shadow-md shadow-slate-700 rounded-lg">
-            <div className="flex justify-center items-center m-3 text-3xl text-yellow-300 font-bold">
-              APPETIZERS
-            </div>
-            <div className="flex flex-col  divide-white divide-y-2 divide-dashed gap-y-8">
+            <div className="flex flex-col  divide-white divide-y-2 divide-dashed">
+              <div className="flex justify-center items-center m-3 text-3xl text-yellow-300 font-bold">
+                APPETIZERS
+              </div>
               {appetizers.map((item) => {
                 return (
-                  <div className="flex flex-col justify-center items-center mx-2">
+                  <div className="flex flex-col justify-center items-center mx-2 h-[140px]">
                     <div className="flex w-full justify-between">
                       <div className="m-2 text-lg">{item.item}</div>
                       <div className="m-2">{item.price}</div>
@@ -68,13 +68,85 @@ export default function Menu() {
             </div>
           </div>
           <div className="z-40 m-auto h-max w-5/6 bg-black flex flex-col border-solid border-slate-500 border-2 shadow-md shadow-slate-700 rounded-lg">
-            <div className="flex justify-center items-center m-3 text-3xl text-yellow-300 font-bold">
-              DRINKS
-            </div>
-            <div className="flex flex-col  divide-white divide-y-2 divide-dashed gap-y-8">
+            <div className="flex flex-col  divide-white divide-y-2 divide-dashed">
+              <div className="flex justify-center items-center m-3 text-3xl text-yellow-300 font-bold">
+               DRINKS
+              </div>
               {appetizers.map((item) => {
                 return (
-                  <div className="flex flex-col justify-center items-center">
+                  <div className="flex flex-col justify-center items-center mx-2 h-[140px]">
+                    <div className="flex w-full justify-between">
+                      <div className="m-2 text-lg">{item.item}</div>
+                      <div className="m-2">{item.price}</div>
+                    </div>
+                    <div className="m-2 text-center">{item.description}</div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+          <div className="z-40 m-auto h-max w-5/6 bg-black flex flex-col border-solid border-slate-500 border-2 shadow-md shadow-slate-700 rounded-lg">
+            <div className="flex flex-col  divide-white divide-y-2 divide-dashed">
+              <div className="flex justify-center items-center m-3 text-3xl text-yellow-300 font-bold">
+                SOUPS AND SALADS
+              </div>
+              {appetizers.map((item) => {
+                return (
+                  <div className="flex flex-col justify-center items-center mx-2 h-[140px]">
+                    <div className="flex w-full justify-between">
+                      <div className="m-2 text-lg">{item.item}</div>
+                      <div className="m-2">{item.price}</div>
+                    </div>
+                    <div className="m-2 text-center">{item.description}</div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+          <div className="z-40 m-auto h-max w-5/6 bg-black flex flex-col border-solid border-slate-500 border-2 shadow-md shadow-slate-700 rounded-lg">
+            <div className="flex flex-col  divide-white divide-y-2 divide-dashed">
+              <div className="flex justify-center items-center m-3 text-3xl text-yellow-300 font-bold">
+                ENTREES
+              </div>
+              {appetizers.map((item) => {
+                return (
+                  <div className="flex flex-col justify-center items-center mx-2 h-[140px]">
+                    <div className="flex w-full justify-between">
+                      <div className="m-2 text-lg">{item.item}</div>
+                      <div className="m-2">{item.price}</div>
+                    </div>
+                    <div className="m-2 text-center">{item.description}</div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+          <div className="z-40 m-auto h-max w-5/6 bg-black flex flex-col border-solid border-slate-500 border-2 shadow-md shadow-slate-700 rounded-lg">
+            <div className="flex flex-col  divide-white divide-y-2 divide-dashed">
+              <div className="flex justify-center items-center m-3 text-3xl text-yellow-300 font-bold">
+                ENTREES
+              </div>
+              {appetizers.map((item) => {
+                return (
+                  <div className="flex flex-col justify-center items-center mx-2 h-[140px]">
+                    <div className="flex w-full justify-between">
+                      <div className="m-2 text-lg">{item.item}</div>
+                      <div className="m-2">{item.price}</div>
+                    </div>
+                    <div className="m-2 text-center">{item.description}</div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+          <div className="z-40 m-auto h-max w-5/6 bg-black flex flex-col border-solid border-slate-500 border-2 shadow-md shadow-slate-700 rounded-lg">
+            <div className="flex flex-col  divide-white divide-y-2 divide-dashed">
+              <div className="flex justify-center items-center m-3 text-3xl text-yellow-300 font-bold">
+                DESSERTS
+              </div>
+              {appetizers.map((item) => {
+                return (
+                  <div className="flex flex-col justify-center items-center mx-2 h-[140px]">
                     <div className="flex w-full justify-between">
                       <div className="m-2 text-lg">{item.item}</div>
                       <div className="m-2">{item.price}</div>
@@ -86,61 +158,10 @@ export default function Menu() {
             </div>
           </div>
 
-          <div className=" m-auto h-max w-5/6 bg-black flex flex-col border-solid border-slate-500 border-2 shadow-md shadow-slate-700 rounded-lg">
-            <div className="flex justify-center items-center m-3 text-3xl text-yellow-300 font-bold">
-              SOUPS + SALADS
-            </div>
-            <div className="flex flex-col  divide-white divide-y-2 divide-dashed gap-y-8">
-              {appetizers.map((item) => {
-                return (
-                  <div className="flex flex-col justify-center items-center">
-                    <div className="flex w-full justify-between">
-                      <div className="m-2 text-lg">{item.item}</div>
-                      <div className="m-2">{item.price}</div>
-                    </div>
-                    <div className="m-2 text-center">{item.description}</div>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-          <div className="m-auto h-max w-5/6 bg-black flex flex-col border-solid border-slate-500 border-2 shadow-md shadow-slate-700 rounded-lg">
-            <div className="flex justify-center items-center m-3 text-3xl text-yellow-300 font-bold">
-              ENTREES
-            </div>
-            <div className="flex flex-col  divide-white divide-y-2 divide-dashed gap-y-8">
-              {appetizers.map((item) => {
-                return (
-                  <div className="flex flex-col justify-center items-center">
-                    <div className="flex w-full justify-between">
-                      <div className="m-2 text-lg">{item.item}</div>
-                      <div className="m-2">{item.price}</div>
-                    </div>
-                    <div className="m-2 text-center">{item.description}</div>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
 
-          <div className="m-auto h-max w-5/6 bg-black flex flex-col border-solid border-slate-500 border-2 shadow-md shadow-slate-700 rounded-lg">
-            <div className="flex justify-center items-center m-3 text-3xl text-yellow-300 font-bold">
-              DESSERTS
-            </div>
-            <div className="flex flex-col  divide-white divide-y-2 divide-dashed gap-y-8">
-              {appetizers.map((item) => {
-                return (
-                  <div className="flex flex-col justify-center items-center">
-                    <div className="flex w-full justify-between">
-                      <div className="m-2 text-lg">{item.item}</div>
-                      <div className="m-2">{item.price}</div>
-                    </div>
-                    <div className="m-2 text-center">{item.description}</div>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
+
+
+
         </div>
       </div>
     </>
