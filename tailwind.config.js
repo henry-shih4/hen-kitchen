@@ -3,6 +3,10 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        dosis: ["Dosis", "ui-sans-serif", "sans-serif"],
+        nunito: ["Nunito", "ui-sans-serif", "sans-serif"],
+      },
       backgroundImage: {
         main: "url('images/main.jpg')",
         review:
