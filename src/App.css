@@ -18,3 +18,10 @@ body {
 .yt-icon:hover {
   fill: red;
 }
+
+
+@layer utilities {
+  .clip-bg {
+    clip-path: polygon(0 0, 100% 1%, 100% 65%, 0% 100%);
+  }
+}

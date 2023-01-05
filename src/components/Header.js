@@ -1,14 +1,33 @@
 import logo from "../images/logo.png";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 export default function Header() {
   const [showModal, setShowModal] = useState();
   const navigate = useNavigate();
+  const [scrollPosition, setScrollPosition] = useState();
+
+  useEffect(() => {
+    window.addEventListener("scroll", (event) => {
+      let Yscroll = window.scrollY;
+      setScrollPosition(Yscroll);
+    });
+  });
+
+  useEffect(() => {
+    console.log(scrollPosition);
+  });
+
   return (
     <>
-      <div className={"fixed top-0 w-full h-24 z-50"}>
-        <div className="flex justify-between text-white bg-transparant h-full ">
+      <div
+        className={
+          scrollPosition > 260
+            ? "fixed top-0 w-full h-24 z-50 flex justify-center items-center bg-black transition-colors duration-500"
+            : "fixed top-0 w-full h-24 z-50 flex justify-center items-center"
+        }
+      >
+        <div className="flex justify-between  text-white h-full w-full md:w-[80%]">
           <div
             className="h-16 m-4 hover:cursor-pointer hover:scale-110 duration-500"
             onClick={() => {

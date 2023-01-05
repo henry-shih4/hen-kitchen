@@ -1,7 +1,6 @@
 export default function intersectHelper() {
   const callback = function (entries) {
     entries.forEach((entry) => {
-      console.log(entry);
 
       const isAbove = entry.boundingClientRect.y < entry.rootBounds.y;
 

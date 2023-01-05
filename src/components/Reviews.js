@@ -16,7 +16,7 @@ export default function Reviews() {
           </div>
         </div>
         <div className="flex flex-col justify-center items-center h-4/5 md:flex-row ">
-          <div className="bg-review bg-cover w-full h-1/3 flex flex-row justify-around items-center space-y-2 border-white border-2 rounded-md md:w-1/3 m-3 md:h-3/4 md:flex-col md:justify-center">
+          <div className="bg-review bg-cover bg-center bg-no-repeat w-full h-1/3 flex flex-row justify-around items-center space-y-2 border-white border-2 rounded-md md:w-1/3 m-3 md:h-3/4 md:flex-col md:justify-center">
             <div>
               <img alt="quotes" src="/quotes.svg" />
             </div>
@@ -28,7 +28,7 @@ export default function Reviews() {
             </div>
           </div>
 
-          <div className="bg-review bg-cover w-full h-1/3 flex flex-row  justify-around items-center space-y-2  border-white border-2 rounded-md md:w-1/3 m-3 md:h-3/4 md:flex-col md:justify-center">
+          <div className="bg-review bg-cover bg-center bg-no-repeat w-full h-1/3 flex flex-row  justify-around items-center space-y-2  border-white border-2 rounded-md md:w-1/3 m-3 md:h-3/4 md:flex-col md:justify-center">
             <div>
               <img alt="quotes" src="/quotes.svg" />
             </div>
@@ -39,7 +39,7 @@ export default function Reviews() {
               was great. - Isaac Jones
             </div>
           </div>
-          <div className="bg-review bg-cover w-full h-1/3 flex flex-row justify-around items-center space-y-2  border-white border-2 rounded-md md:w-1/3 m-3 md:h-3/4 md:flex-col md:justify-center">
+          <div className="bg-review bg-cover bg-center bg-no-repeat w-full h-1/3 flex flex-row justify-around items-center space-y-2  border-white border-2 rounded-md md:w-1/3 m-3 md:h-3/4 md:flex-col md:justify-center">
             <div>
               <img alt="quotes" src="/quotes.svg" />
             </div>
