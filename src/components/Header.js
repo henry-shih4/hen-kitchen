@@ -106,7 +106,13 @@ export default function Header() {
             >
               MENU
             </div>
-            <div className="w-max p-3 rounded-lg hover:text-black hover:bg-white duration-300 cursor-pointer">
+            <div
+              className="w-max p-3 rounded-lg hover:text-black hover:bg-white duration-300 cursor-pointer"
+              onClick={() => {
+                navigate("/about");
+                setShowModal(false);
+              }}
+            >
               ABOUT
             </div>
             <div className="w-max p-3 rounded-lg hover:text-black hover:bg-white duration-300 cursor-pointer">

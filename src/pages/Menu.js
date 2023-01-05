@@ -94,7 +94,7 @@ export default function Menu() {
           </div>
           <div className="z-40 m-auto h-max w-5/6 bg-slate-100 flex flex-col  shadow-sm shadow-slate-700 rounded-lg show-on-scroll">
             <div className="flex flex-col  divide-black divide-y-2 divide-dashed">
-              <div className="flex justify-center items-center m-3 p-2 text-3xl text-green-300 font-bold font-dosis tracking-widest">
+              <div className="flex justify-center items-center m-3 p-2 text-3xl text-green-400 font-bold font-dosis tracking-widest">
                 SOUPS AND SALADS
               </div>
               {appetizers.map((item) => {

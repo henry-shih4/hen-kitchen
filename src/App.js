@@ -4,6 +4,7 @@ import Map from "./components/Map";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Menu from "./pages/Menu";
+import About from "./pages/About";
 import "./App.css";
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -20,6 +21,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="menu" element={<Menu />}></Route>
+          <Route path="about" element={<About />}></Route>
         </Routes>
         <Map />
         <Footer />
