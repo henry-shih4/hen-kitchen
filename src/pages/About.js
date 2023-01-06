@@ -1,6 +1,30 @@
 import chefs4 from "../images/chefs4.jpg";
 
 export default function About() {
+  const employees = [
+    {
+      name: "Tana Page",
+      role: "Restaurant Manager",
+    },
+    {
+      name: "Gemma Noel",
+      role: "Head Chef",
+    },
+    {
+      name: "Robin Gibbs",
+      role: "",
+    },
+    {
+      name: "Nash Young",
+    },
+    {
+      name: "Emma Byers",
+    },
+    {
+      name: "Lance Alford",
+    },
+  ];
+
   return (
     <>
       <div className="flex flex-col justify-center items-center h-screen">
@@ -12,6 +36,8 @@ export default function About() {
           />
         </div>
       </div>
+      <div className="h-screen bg-black text-white">About us</div>
+      <div className="h-screen bg-black text-white">Our Team</div>
     </>
   );
 }

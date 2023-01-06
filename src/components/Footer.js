@@ -12,8 +12,8 @@ export default function Contact() {
             <svg
               className="cursor-pointer hover:stroke-[#4267B2] duration-300"
               stroke="#fff"
-              width="40px"
-              height="40px"
+              width="48px"
+              height="48px"
               viewBox="0 0 24 24"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -28,8 +28,8 @@ export default function Contact() {
             <svg
               className="cursor-pointer hover:stroke-[#1DA1F2] duration-300"
               stroke="#fff"
-              width="40px"
-              height="40px"
+              width="48px"
+              height="48px"
               viewBox="0 0 24 24"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -44,8 +44,8 @@ export default function Contact() {
             <svg
               className="cursor-pointer hover:stroke-[#E1306C] duration-300"
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
+              width="48"
+              height="48"
               fill="none"
               viewBox="0 0 24 24"
               stroke="#fff"
@@ -59,8 +59,8 @@ export default function Contact() {
           <div>
             <svg
               className="cursor-pointer hover:stroke-red-500 duration-300"
-              width="40px"
-              height="40px"
+              width="48px"
+              height="48px"
               viewBox="0 0 64 64"
               xmlns="http://www.w3.org/2000/svg"
               stroke-width="3"
