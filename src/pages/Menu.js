@@ -54,7 +54,7 @@ export default function Menu() {
         </div>
       </div>
       {/*menu start */}
-      <div className="flex flex-col justify-center items-center w-screen h-max  bg-white">
+      <div className="flex flex-col justify-center items-center w-screen h-max mb-8 bg-white">
         <div className="grid grid-cols-1 m-auto bg-black w-full text-black md:grid-cols-2 gap-x-2 gap-y-16">
           <div className="z-40 m-auto h-max w-5/6 bg-slate-100 flex flex-col  shadow-sm shadow-slate-700 rounded-lg show-on-scroll">
             <div className="flex flex-col  divide-black divide-y-2 divide-dashed">
