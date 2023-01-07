@@ -31,19 +31,19 @@ module.exports = {
             transform: "translateY(0)",
           },
         },
-        slideUp: {
+        fade: {
           "0%": {
-            transform: "translateY(5%)",
+            opacity: "0",
           },
 
           "100%": {
-            transform: "translateY(0)",
+            opacity: "1",
           },
         },
       },
       animation: {
         fadeIn: "fadeIn 1s ease-in forwards",
-        slideUp: "slideUp 0.7s ease-in forwards",
+        fade: "fade 2s ease-in forwards",
       },
       height: {
         "10v": "10vh",
