@@ -14,7 +14,7 @@ module.exports = {
         city: "linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url('images/city-map.jpg')",
         chef: "linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url('images/chef3.jpg')",
         chef2:
-          "linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url('images/chefs4.jpg')",
+          "linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url('images/chefs4.jpg')",
         interior:
           "linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url('images/interior.jpeg')",
       },

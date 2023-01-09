@@ -49,12 +49,12 @@ export default function About() {
   return (
     <>
       <div className="flex flex-col justify-center items-center h-screen">
+        <div className="absolute w-screen h-screen bg-chef2 bg-cover bg-center bg-no-repeat"></div>
         <div className="absolute z-30 flex flex-col w-full justify-center items-center text-white text-4xl font-bold  p-3 space-y-3 text-center font-dosis tracking-widest ">
           <div>Experience.</div>
           <div>Service.</div>
           <div>Quality.</div>
         </div>
-        <div className="absolute w-screen h-screen bg-chef2 bg-cover bg-center bg-no-repeat "></div>
         <div className="invisible animate-fade max-w-[1/2] max-h-[600px] overflow-hidden z-20 md:visible">
           <img
             alt="chef-cooking"
