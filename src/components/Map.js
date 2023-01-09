@@ -1,6 +1,6 @@
 export default function Map() {
   return (
-    <div className="flex justify-center items-center h-screen">
+    <div className="flex justify-center items-center h-90v">
       <div className="absolute w-full h-full bg-city brightness-25 bg-cover -z-10"></div>
       <div className="flex justify-center items-center bg-slate-500 max-w-[320px] min-h-[240px] rounded-md">
         <div className="w-1/3 flex justify-center items-center">

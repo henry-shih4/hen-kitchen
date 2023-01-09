@@ -5,8 +5,14 @@ import souschef from "../images/sous-chef.jpg";
 import owner from "../images/owner.jpg";
 import hostess from "../images/hostess.jpg";
 import bartender from "../images/bartender.jpg";
+import intersectHelper from "../util/Helper";
+import { useEffect } from "react";
 
 export default function About() {
+  useEffect(() => {
+    intersectHelper();
+  }, []);
+
   const employees = [
     {
       name: "Tana Page",
@@ -43,23 +49,26 @@ export default function About() {
   return (
     <>
       <div className="flex flex-col justify-center items-center h-screen">
-        <div className="absolute z-30 flex flex-col w-full justify-center items-center text-white text-4xl font-bold  p-3 space-y-3 text-center ">
+        <div className="absolute z-30 flex flex-col w-full justify-center items-center text-white text-4xl font-bold  p-3 space-y-3 text-center font-dosis tracking-widest ">
           <div>Experience.</div>
           <div>Service.</div>
           <div>Quality.</div>
         </div>
         <div className="absolute w-screen h-screen bg-chef2 bg-cover bg-center bg-no-repeat "></div>
-        <div className="animate-fade max-w-[1/2] max-h-[600px] overflow-hidden z-20">
+        <div className="invisible animate-fade max-w-[1/2] max-h-[600px] overflow-hidden z-20 md:visible">
           <img
+            alt="chef-cooking"
             className="w-full h-full scale-[2.5] object-cover  -translate-y-10"
             src={chefs4}
           />
         </div>
       </div>
       <div className="h-max bg-black text-white flex justify-center items-center md:h-60v">
-        <div className="my-4 w-3/4 flex flex-col justify-around items-start h-max gap-y-4 md:w-1/2">
+        <div className="show-on-scroll my-4 w-3/4 flex flex-col justify-around items-start h-max gap-y-4 md:w-1/2">
           <div className="text-2xl text-yellow-400">About Us</div>
-          <div className="font-bold text-3xl">Hen's Kitchen</div>
+          <div className="font-bold text-3xl font-dosis tracking-widest">
+            Hen's Kitchen
+          </div>
           <div>
             We welcome you to sit back, unwind and appreciate the lovely sights
             and hints of the city while our gourmet experts sets up your
@@ -74,17 +83,17 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div className="my-4 h-max w-screen flex justify-center items-center bg-black text-white">
-        <div className="flex flex-col justify-around items-center h-max w-5/6 gap-y-5">
+      <div className="my-4 h-max w-full flex justify-center items-center bg-black text-white">
+        <div className="show-on-scroll flex flex-col justify-around items-center h-max w-5/6 gap-y-5">
           <div className="text-2xl text-yellow-400">Meet the Team!</div>
-          <div className="font-bold text-2xl text-center">
+          <div className="font-bold text-base text-center tracking-widest md:text-2xl">
             The people at Hen's Kitchen who make us great!
           </div>
           <div className="flex flex-col justify-center items-center gap-x-8  md:flex-row md:flex-wrap">
             {employees.map((employee) => {
               return (
                 <>
-                  <div className="h-[460px] w-[400px]">
+                  <div className="h-[460px] max-w-[400px] md:w-[400px]">
                     <img
                       alt={employee.image}
                       className="object-cover h-5/6 w-full"

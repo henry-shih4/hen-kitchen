@@ -24,7 +24,7 @@ export default function Header() {
         className={
           scrollPosition > 260
             ? "fixed top-0 w-full h-24 z-50 flex justify-center items-center bg-black transition-colors duration-500"
-            : "fixed top-0 w-full h-24 z-50 flex justify-center items-center"
+            : "fixed top-0 w-full h-24 z-50 flex justify-center items-center bg-transparent transition-colors duration-500"
         }
       >
         <div className="flex justify-between  text-white h-full w-full md:w-[80%]">
@@ -42,8 +42,8 @@ export default function Header() {
             }}
             className={
               showModal
-                ? "rotate-90 cursor-pointer h-16 m-4 transition duration-500"
-                : "rotate-0 cursor-pointer h-16 m-4 transition duration-500"
+                ? "rotate-90 cursor-pointer h-16 m-4 transition duration-500 hover:scale-105"
+                : "rotate-0 cursor-pointer h-16 m-4 transition duration-500 hover:scale-105"
             }
           >
             <img
@@ -115,7 +115,13 @@ export default function Header() {
             >
               ABOUT
             </div>
-            <div className="w-max p-3 rounded-lg hover:text-black hover:bg-white duration-300 cursor-pointer">
+            <div
+              className="w-max p-3 rounded-lg hover:text-black hover:bg-white duration-300 cursor-pointer"
+              onClick={() => {
+                navigate("/contact");
+                setShowModal(false);
+              }}
+            >
               CONTACT
             </div>
           </div>

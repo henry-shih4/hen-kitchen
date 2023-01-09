@@ -17,7 +17,9 @@ export default function Gallery() {
   return (
     <>
       <div className="show-on-scroll flex flex-col justify-center items-center h-max bg-black overflow-hidden">
-        <div className="text-white text-3xl m-4">Our Gallery</div>
+        <div className="font-dosis tracking-widest text-3xl m-4 text-yellow-300">
+          Our Gallery
+        </div>
         <div className="grid h-screen w-[90%] m-auto bg-black grid-cols-custom grid-rows-custom gap-2 mb-2 grid-flow-dense lg:h-full">
           <div className="col-span-2 row-span-1 overflow-hidden">
             <img

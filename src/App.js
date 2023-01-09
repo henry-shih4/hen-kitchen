@@ -7,6 +7,7 @@ import Menu from "./pages/Menu";
 import About from "./pages/About";
 import "./App.css";
 import ScrollToTop from "./components/ScrollToTop";
+import Contact from "./pages/Contact";
 
 function App() {
   window.onbeforeunload = function () {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="menu" element={<Menu />}></Route>
           <Route path="about" element={<About />}></Route>
+          <Route path="contact" element={<Contact />}></Route>
         </Routes>
         <Map />
         <Footer />

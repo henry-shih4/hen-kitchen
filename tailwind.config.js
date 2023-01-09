@@ -15,6 +15,8 @@ module.exports = {
         chef: "linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url('images/chef3.jpg')",
         chef2:
           "linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url('images/chefs4.jpg')",
+        interior:
+          "linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url('images/interior.jpeg')",
       },
       gridTemplateColumns: {
         custom: "repeat(4, minmax(0, 1fr))",
@@ -42,7 +44,7 @@ module.exports = {
         },
       },
       animation: {
-        fadeIn: "fadeIn 1s ease-in forwards",
+        fadeIn: "fadeIn 0.7s ease-in forwards",
         fade: "fade 2s ease-in forwards",
       },
       height: {

@@ -2,10 +2,10 @@ import logo from "../images/logo.png";
 
 export default function Contact() {
   return (
-    <div className="flex justify-center items-center h-screen bg-black">
+    <div className="flex justify-center items-center h-90v bg-black">
       <div className="text-white flex flex-col justify-center items-center">
         <div className="w-[300px] h-[300px]">
-          <img src={logo} />
+          <img alt="hens-kitchen logo" src={logo} />
         </div>
         <div className="flex space-x-6">
           <div>

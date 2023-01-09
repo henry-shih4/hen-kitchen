@@ -11,9 +11,11 @@ export default function Features() {
 
   return (
     <div className="flex justify-center items-center  bg-black text-white min-h-max my-10 md:h-70v md:my-0">
-      <div className="flex flex-col justify-center items-center text-center h-full w-5/6 space-y-10 md:justify-around">
+      <div className="tracking-widest flex flex-col justify-center items-center text-center h-full w-5/6 space-y-10 md:justify-around">
         <div className="show-on-scroll flex flex-col justify-center items-center">
-          <div className="text-3xl italic text-yellow-400">Discover</div>
+          <div className="text-3xl italic text-yellow-300 font-dosis tracking-widest">
+            Discover
+          </div>
           <div>What our food provides</div>
         </div>
         <div className=" show-on-scroll flex flex-col gap-y-5 md:flex-row">

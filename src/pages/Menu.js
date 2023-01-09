@@ -44,9 +44,9 @@ export default function Menu() {
       <div className="flex flex-col justify-center items-center h-80v bg-black">
         <div className="absolute w-screen h-screen bg-chef bg-cover bg-center bg-no-repeat clip-bg"></div>
         <div className="z-10 flex flex-col w-full justify-center items-center text-white font-bold  p-3 space-y-3 text-center md:w-1/2">
-          <div className="font-dosis text-5xl">Our Menu</div>
+          <div className="font-dosis tracking-widest text-5xl">Our Menu</div>
           <div className="bg-white w-1/2 h-[6px]"></div>
-          <div className="text-base w-1/2 font-normal italic">
+          <div className="text-base w-1/2 font-normal italic tracking-widest" >
             We are proud to serve many different types of cuisines and flavors
             from all around the world. Feel free to ask our staff about our
             recommendations or any new items on the menu!
@@ -54,7 +54,7 @@ export default function Menu() {
         </div>
       </div>
       {/*menu start */}
-      <div className="flex flex-col justify-center items-center w-screen h-max mb-8 bg-white">
+      <div className="flex flex-col justify-center items-center w-screen h-max pb-6 bg-black">
         <div className="grid grid-cols-1 m-auto bg-black w-full text-black md:grid-cols-2 gap-x-2 gap-y-16">
           <div className="z-40 m-auto h-max w-5/6 bg-slate-100 flex flex-col  shadow-sm shadow-slate-700 rounded-lg show-on-scroll">
             <div className="flex flex-col  divide-black divide-y-2 divide-dashed">
