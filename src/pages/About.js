@@ -63,7 +63,7 @@ export default function About() {
           />
         </div>
       </div>
-      <div className="h-max bg-black text-white flex justify-center items-center md:h-60v">
+      <div className="min-h-[80vh] bg-black text-white flex justify-center items-center">
         <div className="show-on-scroll my-4 w-3/4 flex flex-col justify-around items-start h-max gap-y-4 md:w-1/2">
           <div className="text-2xl text-yellow-400">About Us</div>
           <div className="font-bold text-3xl font-dosis tracking-widest">
