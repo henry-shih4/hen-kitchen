@@ -4,15 +4,16 @@ import Features from "../components/Features";
 import Reviews from "../components/Reviews";
 import Gallery from "../components/Gallery";
 
-
 export default function Home() {
   return (
     <>
-      <Main />
-      <Info />
-      <Features />
-      <Reviews />
-      <Gallery />
+      <div className="bg-black">
+        <Main />
+        <Info />
+        <Features />
+        <Reviews />
+        <Gallery />
+      </div>
     </>
   );
 }

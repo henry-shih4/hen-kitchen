@@ -48,8 +48,8 @@ export default function About() {
 
   return (
     <>
-      <div className="flex flex-col justify-center items-center h-screen">
-        <div className="absolute w-screen h-screen bg-chef2 bg-cover bg-center bg-no-repeat"></div>
+      <div className="flex flex-col justify-center items-center h-screen bg-black">
+        <div className="absolute w-full h-screen bg-chef2 bg-cover bg-center bg-no-repeat"></div>
         <div className="absolute z-30 flex flex-col w-full justify-center items-center text-white text-4xl font-bold  p-3 space-y-3 text-center font-dosis tracking-widest ">
           <div>Experience.</div>
           <div>Service.</div>
@@ -83,7 +83,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div className="my-4 h-max w-full flex justify-center items-center bg-black text-white">
+      <div className="py-4 h-max w-full flex justify-center items-center bg-black text-white">
         <div className="show-on-scroll flex flex-col justify-around items-center h-max w-5/6 gap-y-5">
           <div className="text-2xl text-yellow-400">Meet the Team!</div>
           <div className="font-bold text-base text-center tracking-widest md:text-2xl">

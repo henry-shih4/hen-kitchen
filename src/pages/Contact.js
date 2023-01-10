@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <>
       <div className="flex flex-col justify-center items-center h-70v bg-yellow-300">
-        <div className="absolute w-screen h-screen bg-interior bg-cover bg-center bg-no-repeat clip-bg"></div>
+        <div className="absolute w-full h-screen bg-interior bg-cover bg-center bg-no-repeat clip-bg"></div>
         <div className="z-40 text-white flex justify-center items-center flex-col">
           <div className="text-3xl font-dosis tracking-widest">
             Any questions?
