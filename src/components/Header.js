@@ -25,12 +25,12 @@ export default function Header() {
       >
         <div className="flex justify-between  text-white h-full w-full md:w-[80%]">
           <div
-            className="min-h-16 m-4 hover:cursor-pointer hover:scale-110 duration-500"
+            className="h-16 m-4 hover:cursor-pointer hover:scale-110 duration-500"
             onClick={() => {
               navigate("/");
             }}
           >
-            <img alt="hen-kitchen-logo" className="h-full w-full" src={logo} />
+            <img alt="hen-kitchen-logo" className="h-full" src={logo} />
           </div>
           <div
             onClick={() => {
