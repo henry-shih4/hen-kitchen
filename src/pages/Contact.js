@@ -78,8 +78,8 @@ export default function Contact() {
                     Follow us
                   </div>
                 </div>
-                <div>
-                  <div className="flex justify-center items-center bg-black flex-wrap md:justify-start">
+                <div className="flex justify-center items-center">
+                  <div className="flex justify-center items-center w-full bg-black flex-wrap md:justify-start ">
                     <div className="min-w-[60px] m-2 flex justify-center items-center cursor-pointer">
                       <img
                         alt="facebook"

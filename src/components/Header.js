@@ -14,10 +14,6 @@ export default function Header() {
     });
   });
 
-  useEffect(() => {
-    console.log(scrollPosition);
-  });
-
   return (
     <>
       <div
@@ -29,12 +25,12 @@ export default function Header() {
       >
         <div className="flex justify-between  text-white h-full w-full md:w-[80%]">
           <div
-            className="h-16 m-4 hover:cursor-pointer hover:scale-110 duration-500"
+            className="min-h-16 m-4 hover:cursor-pointer hover:scale-110 duration-500"
             onClick={() => {
               navigate("/");
             }}
           >
-            <img alt="hen-kitchen-logo" className="h-full" src={logo} />
+            <img alt="hen-kitchen-logo" className="h-full w-full" src={logo} />
           </div>
           <div
             onClick={() => {
@@ -88,6 +84,9 @@ export default function Header() {
             </svg>
           </div>
           <div className="flex flex-col justify-center items-center gap-y-10 text-white text-center text-3xl">
+            <div className="font-dosis tracking-widest text-4xl text-center">
+              Hen's Kitchen
+            </div>
             <div
               className="w-max p-3 rounded-lg hover:text-black hover:bg-white duration-300 cursor-pointer"
               onClick={() => {
