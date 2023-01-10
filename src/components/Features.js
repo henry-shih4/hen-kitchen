@@ -10,7 +10,7 @@ export default function Features() {
   }, []);
 
   return (
-    <div className="flex justify-center items-center text-white min-h-[100vh] my-10 md:my-5">
+    <div className="flex justify-center items-center text-white min-h-[80vh] my-10 md:my-5">
       <div className="tracking-wide flex flex-col justify-center items-center text-center  w-5/6 space-y-10 md:justify-around">
         <div className="show-on-scroll flex flex-col justify-center items-center">
           <div className="text-3xl italic text-yellow-300 font-dosis tracking-widest">
