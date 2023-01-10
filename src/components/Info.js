@@ -11,7 +11,7 @@ export default function Info() {
   const navigate = useNavigate();
 
   return (
-    <div className="flex justify-center items-center h-max my-2 bg-black md:h-80v">
+    <div className="flex justify-center items-center h-max my-2 md:h-max">
       <div className=" flex flex-col justify-center items-center w-5/6 h-max md:flex-row md:h-full">
         <div className="show-on-scroll  flex flex-col justify-center items-center space-y-4 w-full h-full mb-3 text-white text-center md:items-start md:text-left md:w-2/3">
           <div className="text-3xl font-dosis tracking-widest ">
@@ -37,7 +37,7 @@ export default function Info() {
             </button>
           </div>
         </div>
-        <div className="show-on-scroll min-w-1/2 h-[400px] flex justify-center items-center md:h-3/4">
+        <div className="show-on-scroll min-w-1/2 h-[400px] flex justify-center items-center">
           <img alt="burger" className="object-cover h-full" src={burger} />
         </div>
       </div>

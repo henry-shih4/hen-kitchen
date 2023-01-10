@@ -10,15 +10,15 @@ export default function Features() {
   }, []);
 
   return (
-    <div className="flex justify-center items-center  bg-black text-white min-h-max my-10 md:h-70v md:my-0 md:min-h-screen">
-      <div className="tracking-wide flex flex-col justify-center items-center text-center h-full w-5/6 space-y-10 md:justify-around">
+    <div className="flex justify-center items-center text-white h-max my-10 md:h-max md:my-2 md:min-h-[80v]">
+      <div className="tracking-wide flex flex-col justify-center items-center text-center  w-5/6 space-y-10 md:justify-around">
         <div className="show-on-scroll flex flex-col justify-center items-center">
           <div className="text-3xl italic text-yellow-300 font-dosis tracking-widest">
             Discover
           </div>
           <div>What our food provides</div>
         </div>
-        <div className=" show-on-scroll flex flex-col gap-y-5 md:flex-row">
+        <div className=" show-on-scroll flex justify-center items-center flex-col gap-y-5 md:flex-row h-max">
           <div className="gap-x-3 w-full h-1/3 flex flex-row justify-center items-center md:w-1/3 md:flex-col md:h-full md:space-y-3">
             <div className="m-2 flex flex-col justify-center items-center w-1/3 md:h-1/3">
               <img
