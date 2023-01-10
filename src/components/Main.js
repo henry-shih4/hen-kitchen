@@ -1,6 +1,6 @@
 export default function Main() {
   return (
-    <div className="flex justify-center items-center h-screen mb-2 bg-black">
+    <div className="flex justify-center items-center h-screen mb-2">
       <div className="absolute w-full h-screen bg-main bg-cover bg-center bg-no-repeat brightness-50 -z-10"></div>
       <div className="flex flex-col w-full justify-center items-center text-white text-4xl font-bold  p-3 space-y-3 text-center">
         <div className="font-dosis tracking-widest">Delicious.</div>

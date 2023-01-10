@@ -7,7 +7,7 @@ import Gallery from "../components/Gallery";
 export default function Home() {
   return (
     <>
-      <div className="bg-black">
+      <div>
         <Main />
         <Info />
         <Features />
