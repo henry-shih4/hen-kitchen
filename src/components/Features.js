@@ -18,54 +18,75 @@ export default function Features() {
           </div>
           <div>What our food provides</div>
         </div>
-        <div className=" show-on-scroll flex justify-center items-center flex-col gap-y-5 md:flex-row h-max">
-          <div className="gap-x-3 w-full h-1/3 flex flex-row justify-center items-center md:w-1/3 md:flex-col md:h-full md:space-y-3">
-            <div className="m-2 flex flex-col justify-center items-center w-1/3 md:h-1/3">
+        <div className="h-full show-on-scroll flex justify-center items-center flex-col gap-y-5 md:flex-row md:h-[400px]">
+          <div className="gap-x-3 w-full h-[240px] min-h-[240px] flex flex-row justify-center items-center  md:w-1/3 md:flex-col md:space-y-3 md:h-full">
+            <div className=" w-[80%] min-w-[130px] rounded-lg bg-slate-100 flex flex-col justify-center items-center h-full md:h-1/3">
               <img
-                alt="tomato"
-                src="/tomato.svg"
-                className="hover:-translate-y-2 duration-300 mb-1"
+                alt="food"
+                src="/food.svg"
+                className="hover:-translate-y-2 duration-300  max-h-[150px]"
               />
-              <div className="font-dosis tracking-widest">Always Fresh</div>
             </div>
-            <div className="text-sm w-4/5 md:h-2/3 md:md:text-base">
-              Freshness is something we strive for in our food. We believe fresh
-              cuisine is best for the body and mind. We keep that in mind while
-              we prepare your food.
-            </div>
-          </div>
-
-          <div className="gap-x-3 w-full h-1/3 flex flex-row justify-center items-center  md:w-1/3 md:flex-col md:h-full md:space-y-3">
-            <div className="m-2 flex flex-col justify-center items-center w-1/3 md:h-1/3">
-              <img
-                alt="plant"
-                src="/plant.svg"
-                className="hover:-translate-y-2 duration-300 mb-1"
-              />
-              <div className="font-dosis tracking-widest">
-                Premium Ingredients
+            <div className="text-sm w-4/5 md:h-2/3 ">
+              <div className="font-dosis tracking-widest text-xl mb-2">
+                High-Quality Ingredients
               </div>
-            </div>
-            <div className="text-sm w-4/5 md:h-2/3 md:md:text-base">
-              Great ingredients are a must to take taste and health to the next
-              level so that's why we only use oragnic ingredients to bring out
-              the best in our ingredients.
+              <p className="">
+                We use only the freshest, locally sourced ingredients
+                <span className="hidden md:inline">
+                  &nbsp; to create a menu that is both delicious and diverse.
+                  Our experienced chefs are passionate about their craft and are
+                  dedicated to providing you with an unforgettable dining
+                  experience.
+                </span>
+              </p>
             </div>
           </div>
 
-          <div className="gap-x-3 w-full h-1/3 flex flex-row justify-center items-center md:w-1/3 md:flex-col md:h-full md:space-y-3">
-            <div className=" m-2 flex flex-col justify-center items-center w-1/3 md:h-1/3">
+          <div className="gap-x-3 w-full h-[240px] min-h-[240px] flex flex-row justify-center items-center  md:w-1/3 md:flex-col md:space-y-3 md:h-full">
+            <div className=" w-[80%] min-w-[130px] rounded-lg bg-slate-100 flex flex-col justify-center items-center h-full md:h-1/3">
               <img
-                alt="trophy"
-                src="/trophy.svg"
-                className="hover:-translate-y-2 duration-300 mb-1"
+                alt="team"
+                src="/team.svg"
+                className=" hover:-translate-y-2 duration-300  max-h-[150px]"
               />
-              <div className="font-dosis tracking-widest">Exquisite Taste</div>
             </div>
-            <div className="text-sm w-4/5 md:h-2/3 md:text-base ">
-              Serving delicious food is something we wish to provide for you
-              each visit. We make sure the taste is packed with flavor,
-              consistant and nutritious.
+            <div className="text-sm w-4/5 md:h-2/3">
+              <div className="font-dosis tracking-widest text-xl mb-2">
+                Exceptional Service
+              </div>
+              <p>
+                We strive to provide our customers with a truly exceptional
+                dining experience.&nbsp;
+                <span className="hidden md:inline">
+                  Our friendly and attentive staff are dedicated to making sure
+                  that your every need is taken care of, from the moment you
+                  walk through the door until the moment you leave.
+                </span>
+              </p>
+            </div>
+          </div>
+
+          <div className="gap-x-3 w-full h-[240px] min-h-[240px] flex flex-row justify-center items-center  md:w-1/3 md:flex-col md:space-y-3 md:h-full">
+            <div className=" w-[80%] min-w-[130px]  rounded-lg bg-slate-100  flex flex-col justify-center items-center h-full  md:h-1/3">
+              <img
+                alt="dinner"
+                src="/dinner.svg"
+                className="hover:-translate-y-2 duration-300 max-h-[150px]"
+              />
+            </div>
+            <div className="text-sm w-4/5 md:h-2/3 ">
+              <div className="font-dosis tracking-widest text-xl mb-2">
+                Atmosphere
+              </div>
+              <p>
+                Experience the perfect blend of comfort and elegance.&nbsp;
+                <span className="hidden md:inline">
+                  With a warm and inviting atmosphere, comfortable seating, and
+                  pleasant decor, our restaurant is the ideal spot for any
+                  occasion.
+                </span>
+              </p>
             </div>
           </div>
         </div>
