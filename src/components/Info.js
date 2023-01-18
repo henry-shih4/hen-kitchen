@@ -28,7 +28,7 @@ export default function Info() {
           </div>
           <div className="flex justify-center items-center">
             <button
-              className="m-3 bg-yellow-300 text-black text-center p-2 w-[160px] h-[60px] rounded-md ease-in-out hover:opacity-70 duration-300"
+              className="m-3 bg-yellow-300 text-black text-center p-2 w-[160px] h-[60px] rounded-md ease-in-out hover:opacity-80 duration-300"
               onClick={() => {
                 navigate("/about");
               }}

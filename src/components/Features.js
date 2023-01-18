@@ -91,18 +91,15 @@ export default function Features() {
           </div>
         </div>
         <div className="flex flex-col justify-center items-center">
-          <div className="m-3 text-lg font-dosis tracking-widest text-center">
-            Menu
-          </div>
-          <div className="hover:cursor-pointer hover:scale-105 duration-300">
+          <div>
             <button
-              className="show-on-scroll flex justify-center items-center bg-yellow-300 text-black text-center p-2 w-[80px] h-[80px] rounded-full transition-transform ease-in-out md:w-[100px] md:h-[100px]"
+              className="m-3 bg-yellow-300 text-black font-bold text-2xl w-[160px] h-[60px] rounded-md ease-in-out hover:opacity-80 hover:cursor-pointer duration-300"
               onClick={() => {
                 navigate("/menu");
               }}
             >
-              <div className="">
-                <img alt="menu" src="/cutlery.svg" />
+              <div className="flex justify-center items-center  tracking-widest h-full w-full">
+                Menu
               </div>
             </button>
           </div>

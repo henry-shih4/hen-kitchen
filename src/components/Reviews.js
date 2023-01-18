@@ -18,7 +18,7 @@ export default function Reviews() {
           </div>
         </div>
         <div className="flex flex-col justify-center items-center h-max gap-y-4 md:flex-row ">
-          <div className="bg-review bg-cover bg-center bg-no-repeat w-full h-1/3 flex flex-row justify-around items-center space-y-2 border-white border-2 rounded-md md:min-w-1/3 m-3 md:h-[400px] md:min-h-[2/3] md:flex-col md:justify-center">
+          <div className="bg-review bg-cover bg-center bg-no-repeat w-full h-1/3 flex flex-row justify-around items-center space-y-2 border-white border-2 rounded-md py-2 md:min-w-1/3 m-3 md:h-[400px] md:min-h-[2/3] md:flex-col md:justify-center">
             <div>
               <img alt="quotes" src="/quotes.svg" />
             </div>
@@ -30,7 +30,7 @@ export default function Reviews() {
             </div>
           </div>
 
-          <div className="bg-review bg-cover bg-center bg-no-repeat w-full h-1/3 flex flex-row  justify-around items-center space-y-2  border-white border-2 rounded-md md:min-w-1/3 m-3 md:h-[400px] md:min-h-[2/3] md:flex-col md:justify-center">
+          <div className="bg-review bg-cover bg-center bg-no-repeat w-full h-1/3 flex flex-row  justify-around items-center space-y-2  border-white border-2 rounded-md py-2 md:min-w-1/3 m-3 md:h-[400px] md:min-h-[2/3] md:flex-col md:justify-center">
             <div>
               <img alt="quotes" src="/quotes.svg" />
             </div>
@@ -41,7 +41,7 @@ export default function Reviews() {
               <span className="font-bold">Isaac Jones</span>
             </div>
           </div>
-          <div className="bg-review bg-cover bg-center bg-no-repeat w-full h-1/3 flex flex-row justify-around items-center space-y-2  border-white border-2 rounded-md md:min-w-1/3 m-3 md:h-[400px] md:min-h-[2/3] md:flex-col md:justify-center">
+          <div className="bg-review bg-cover bg-center bg-no-repeat w-full h-1/3 flex flex-row justify-around items-center space-y-2  border-white border-2 rounded-md py-2 md:min-w-1/3 m-3 md:h-[400px] md:min-h-[2/3] md:flex-col md:justify-center">
             <div>
               <img alt="quotes" src="/quotes.svg" />
             </div>
